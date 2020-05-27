@@ -1,6 +1,6 @@
 spring:
   datasource: #如果mysql在本机，就换成127.0.0.1:mysql端口号，即：jdbc:mysql://127.0.0.1:3306/project?useUnicode=true&characterEncoding=UTF8&autoReconnect=true&serverTimezone=Asia/Shanghai
-    url: jdbc:mysql://localhost:3306/project?useUnicode=true&characterEncoding=UTF8&autoReconnect=true&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://localhost:3306/paysystem?useUnicode=true&characterEncoding=UTF8&autoReconnect=true&serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root #数据库用户名
     password: root #数据库密码
